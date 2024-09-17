@@ -16,15 +16,60 @@
         
     </div>
     <div class="right">
-        <form id="checkout">
+        <div class="inner-box">
+        <h1>Payment Details</h1>
+        <label for="">Card Number</label>
+        <input id="cardnumber" type=text pattern="[0-9]{13,16}" name="cardnumber" requierd="true" placeholder="0123-4567-8901-2345">
         
-        <input class="card" id="visa" type="button" name="card" value="">
-        <input class="card" id="mastercard" type="button" name="card" value="">
-        </form>
-    </div>
+         <label>Card Holder Name</label>
+         <input id="cardholder" type="text" name="name" requierd="true" maxlength="50" placeholder="Card holder">
 
 
-    </div>
+                <label>Expiration Date</label>
+                
+                <select name="month" id="month">
+                    <option value="00">MM</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                  
+                  <select name="year" id="year">
+                    <option value="00">YY</option>
+                    <option value="01">16</option>
+                    <option value="02">17</option>
+                    <option value="03">18</option>
+                    <option value="04">19</option>
+                    <option value="05">20</option>
+                    <option value="06">21</option>
+                    <option value="07">22</option>
+                    <option value="08">23</option>
+                    <option value="09">24</option>
+                    <option value="10">25</option>
+                  </select>
+
+                <Label>CVC/CVV</Label>
+                <input id="cvc" type="password" placeholder="Cvc/Cvv" maxlength="3">
+
+                <button type="button">Pay Now</button>
+
+         
+         </div>
+        </div>
+             
+          
+</div>
+
+
     
 </body>
 </html>

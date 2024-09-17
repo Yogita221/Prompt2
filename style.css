@@ -9,12 +9,14 @@ body {
     width: 100%;
     font-family: 
 
-    }
+ }
+
 .page{
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(rgb(76, 76, 168), rgb(82, 128, 149), gray);
     
 }
 .page .left{
@@ -43,9 +45,80 @@ body {
 .page .right{
     width: 40%;
     height: 80%;
-    background-color: aquamarine;
+    background-color:  #cad2c4;
     margin-top: 70px;
 }
+.page .right .inner-box{
+    width:80% ;
+    height:90%;
+    background-color: rgb(119,136,153);
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 40px;
+    
+
+}
+.inner-box h1{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 26px;
+    font-family: sans-serif;
+}
+.inner-box label{
+    color: black;
+    display: flex;
+    font-size: 17px;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    
+}
+.inner-box input{
+    width: 95%;
+    padding: 9px;
+    border: none;
+    border: 1px solid gray;
+    outline: none;
+    margin-top: 5px;
+    margin-left: 7px;
+    border-radius: 35px;
+    font-family: sans-serif;
+    
+    
+}
+.inner-box select{
+    width: 45%;
+    padding: 9px;
+    border-radius: 35px;
+    margin-left: 7px;
+    margin-top: 5px ;
+
+}
+
+.inner-box button{
+    width: 150px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left:165px;
+    border: none;
+    background-color: rgb(18, 30, 68);
+    color:white;
+    font-size: 18px;
+    font-weight: solid;
+    transition: all linear 0.5s;
+    border-radius: 20px;
+
+}
+
+button:hover{
+    background-color: transparent;
+    color: rgb(10, 29, 74);
+
+}
+
+
+
+
 
 
 
